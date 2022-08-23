@@ -1,0 +1,9 @@
+.container {
+  height: calc(100vh - 150px);
+}
+
+.imgContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
