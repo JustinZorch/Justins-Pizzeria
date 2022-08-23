@@ -3,10 +3,13 @@ import styles from "../styles/Home.module.css";
 import Background from "../components/Layout/Background";
 
 const Home = () => {
+  /*
+      Home Page /localHost or/LiveURL
+  */
   return (
     <div className={styles.container}>
       <Head>
-        <title>Justin's Pizzeria</title>
+        <title>Justins Pizzeria</title>
         <meta name="description" content="The best pizza in The Netherlands" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

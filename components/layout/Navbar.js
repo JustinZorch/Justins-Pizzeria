@@ -19,7 +19,7 @@ const Navbar = () => {
           ></Image>
         </div>
         <div className={styles.name}>
-          <Link href="/">Justin's Pizzeria</Link>
+          <Link href="/">Justins Pizzeria</Link>
         </div>
       </div>
 

@@ -2,6 +2,10 @@ import mongoose from "mongoose";
 
 const MONGODB_URL = process.env.NEXT_PUBLIC_MONGODB_URL;
 
+/*
+    Mongoose framework for connecting and using MONGODB.
+*/
+
 if (!MONGODB_URL) {
   throw new Error(
     "Please define the MONGO_URL environment variable inside .env.local"

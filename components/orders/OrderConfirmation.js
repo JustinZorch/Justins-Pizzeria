@@ -9,7 +9,7 @@ const OrderConfirmation = () => {
       *** This is not currently been used ***
   */
   return (
-    <div classname={styles.container}>
+    <div className={styles.container}>
       <div className={styles.wrapper}>
         <h1 className={styles.title}>
           {" "}
@@ -18,9 +18,7 @@ const OrderConfirmation = () => {
       </div>
 
       <div className={styles.option}>
-        <label className={styles.label} for="topping">
-          Status update method:{" "}
-        </label>
+        <label className={styles.label}>Status update method: </label>
         <select className={styles.select} id="topping">
           <option>SMS</option>
           <option>EMAIL</option>

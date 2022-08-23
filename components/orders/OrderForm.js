@@ -9,12 +9,12 @@ const OrderForm = (props) => {
   /*
       OrderForm component to create the user pizza order,
       UseState is used to track users order preferences and
-      passes to PizzaImage componet to create the visual
+      passes to PizzaImage component to create the visual
       order representation. UseRef is used to collect the data 
       from the users inputs.
 
       Order data is stored in an object and sent to the onNewOrder
-      functon which is passed via props.
+      function which is passed via props.
 
       A lot can be customized here to enter in more user data, special
       requests, etc This can all be adjusted in the models folder and

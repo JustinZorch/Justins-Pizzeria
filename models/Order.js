@@ -5,7 +5,7 @@ import mongoose from "mongoose";
 const OrderSchema = new mongoose.Schema(
   /*
       Creating the basic new Order data structure. This
-      can be altrered to add or reduce information that will
+      can be altered to add or reduce information that will
       be passed around and saved to the DB.
 
       Mongoose has been used here which creates schemas and works
