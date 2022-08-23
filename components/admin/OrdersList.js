@@ -4,7 +4,8 @@ import SingleOrder from "./SingleOrder";
 const OrderList = (props) => {
   /*
       OrderList component to display all orders
-      sent via props. Orders are mapped to the 
+      sent via props. 
+      Orders are mapped to the 
       SingleOrder component.
   */
 
