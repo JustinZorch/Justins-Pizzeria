@@ -11,5 +11,6 @@ Users can also see the state of their order from the status page on the site.
 
 To run on a localhost: 
 
-1.  npm start
-2.  npm run dev
+1.  npm install
+2.  npm start
+3.  npm run dev
