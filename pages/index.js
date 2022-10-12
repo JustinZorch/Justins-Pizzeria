@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Background from "../components/Layout/Background";
+import Background from "../components/layout/Background";
 
 const Home = () => {
   /*
